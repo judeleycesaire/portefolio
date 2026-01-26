@@ -167,17 +167,6 @@ nav a.active {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .filters button {
     margin: 5px;
     padding: 8px 15px;
@@ -189,7 +178,7 @@ nav a.active {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 20px;
     margin-top: 30px;
 }
@@ -367,6 +356,7 @@ nav a.active {
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
+
 
 
 
