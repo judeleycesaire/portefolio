@@ -20,7 +20,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #0f0242;
-     font-size: 18px; /* minimum confortable */
+     font-size: 308px; /* minimum confortable */
   line-height: 1.6;
 }
 
@@ -367,5 +367,6 @@ nav a.active {
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
+
 
 
