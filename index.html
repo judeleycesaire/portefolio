@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <section id="hero" class="hero-section">
+    <h1>Développeur Web & Photographe</h1>
+    <p>Je crée des sites modernes et des images qui racontent une histoire.</p>
+
+    <div class="hero-buttons">
+        <a href="#projects" class="btn">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+    </div>
+</section>
+
+<header>
+    <nav>
+        <a href="#home" class="nav-link active">Accueil</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#skills" class="nav-link">Compétences</a>
+        <a href="#gallery" class="nav-link">Galerie</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="section home">
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Développeur Web & Photographe</p>
+    <img src="prof.jpg" class="photo-profil">
+</section>
+
+
+
+<section id="about" class="section">
+   
+    <h2>À propos</h2>
+
+    <p>
+        Je suis animé par une même passion : <strong>créer</strong>.  
+        Que ce soit à travers le code ou à travers l’image, mon objectif est
+        de concevoir des expériences qui ont du sens, qui sont utiles et qui
+        laissent une impression durable.
+    </p>
+
+    <p>
+        En tant que <strong>développeur web</strong> en formation, je m’intéresse particulièrement
+        à la création d’interfaces simples, modernes et intuitives.
+        J’utilise principalement <strong>HTML, CSS et JavaScript</strong> pour
+        transformer des idées en projets concrets et fonctionnels.
+    </p>
+
+    <p>
+        De meme, la <strong>photographie</strong> est pour moi bien plus qu’un métier :
+        c’est une manière de raconter des histoires, de capturer des émotions
+        et de valoriser des moments uniques. Mariages, séances studio ou
+        événements, chaque projet est abordé avec attention et sens du détail.
+    </p>
+
+    <p>
+        Curieux, autonome et en constante évolution, je cherche à développer
+        des projets qui combinent <strong>technologie et créativité</strong>.
+        Ce portfolio reflète mon parcours, mes compétences et ma vision.
+    </p>
+</section>
+
+
+
+
+
+
+
+<section id="projects" class="section projects-section">
+    <h2>Projets Web/Photographie</h2>
+<div class="project-card">
+    <h3>Plateforme E-Learning</h3>
+    <p>
+        Conception d’une plateforme de formation en ligne permettant
+        aux utilisateurs d’accéder à des cours, de suivre leur progression
+        et d’apprendre à leur rythme.
+    </p>
+    <span>HTML • CSS • JavaScript</span>
+</div>
+<span class="tag web">Web</span>
+<br>
+<br>
+<div class="project-card">
+    <h3>Portfolio Photographique & Réservation</h3>
+    <p>
+        Site web vitrine destiné à exposer des réalisations photographiques
+        et à permettre aux clients de réserver facilement leurs séances photo.
+    </p>
+    <span>HTML • CSS • JavaScript</span>
+</div>
+
+
+<span class="tag photo">Photographie</span>
+
+</section>
+
+
+
+
+
+<section id="skills" class="section skills-section">
+    <h2>Compétences</h2>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress">
+                <div class="progress-bar" data-percent="85"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress">
+                <div class="progress-bar" data-percent="75"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress">
+                <div class="progress-bar" data-percent="60"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Photoshop</span>
+            <div class="progress">
+                <div class="progress-bar" data-percent="80"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Canva</span>
+            <div class="progress">
+                <div class="progress-bar" data-percent="80"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Illustrator</span>
+            <div class="progress">
+                <div class="progress-bar" data-percent="60"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<section id="gallery" class="section">
+    <h2>Galerie photo</h2>
+
+    <div class="filters">
+        <button onclick="filterPhotos('all')">Toutes</button>
+        <button onclick="filterPhotos('mariage')">Mariage</button>
+        <button onclick="filterPhotos('studio')">Studio</button>
+        <button onclick="filterPhotos('fantaisie')">Fantaisie</button>
+        <button onclick="filterPhotos('event')">Flyers</button>
+    </div>
+
+    <div class="gallery">
+        <div class="photo-box mariage"><img src="bkiki.jpg"></div>
+        <div class="photo-box studio"><img src="Phedd-4.jpg"></div>
+        <div class="photo-box mariage"><img src="_MG_9779e.jpg"></div>
+        <div class="photo-box studio"><img src="bed.jpg"></div>
+        <div class="photo-box mariage"><img src="croise.jpg"></div>
+        <div class="photo-box fantaisie"><img src="S.5.jpg"></div>
+        <div class="photo-box studio"><img src="R-1.jpg"></div>
+         <div class="photo-box fantaisie"><img src="Z8.jpg"></div>
+        
+        <div class="photo-box event"><img src="APRIL0000000001.jpg"></div>
+        <div class="photo-box event"><img src="20250325_185316.jpg"></div>
+
+
+        
+        
+    </div>
+</section>
+
+
+
+
+
+
+<section id="contact" class="section contact-section">
+    <h2>Contact</h2>
+
+
+             </p>
+
+    <div class="contact-container">
+
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nom complet</label>
+                <input type="text" id="name" placeholder="Votre nom">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Adresse email</label>
+                <input type="email" id="email" placeholder="Votre email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea id="message" rows="5" placeholder="Décrivez votre projet"></textarea>
+            </div>
+
+            <button type="submit">Envoyer le message</button>
+        </form>
+
+    </div>
+<br>
+
+
+
+
+    <div class="contact-bo">
+        <p><strong>Email :</strong> cesairejudeleyii@gmail.com</p>
+        <p><strong>Spécialités :</strong> Développement web & Photographie</p>
+        <p><strong>Disponible pour :</strong> projets web, événements, mariages</p>
+    </div>
+</section>
+
+
+
+<!-- Lightbox -->
+<div id="lightbox">
+    <img id="lightbox-img">
+</div>
+
+
+<footer class="footer">
+    <p>© 2026 – C. Judeley | Développeur Web & Photographe</p>
+</footer>
+<a href="https://wa.me/5545998209095" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Contact WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
