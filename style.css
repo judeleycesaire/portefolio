@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #0f0242;
-    font-size: 20px
+    font-size: 30px
 }
 
 header {
@@ -345,5 +345,6 @@ nav a.active {
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
+
 
 
